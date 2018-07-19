@@ -1,0 +1,14 @@
+<?= $data1 ?>
+<hr>
+<?php if($data2['sex'] == "男") : ?>
+	牛逼
+<?php elseif($data2['sex']=="nv") : ?>
+	呵呵
+<?php else : ?>
+	nijjj
+<?php endif ?>
+
+<hr>
+<?php foreach($data3 as $data): ?>
+	<?php echo $data['name'] ?><br>
+<?php endforeach ?>

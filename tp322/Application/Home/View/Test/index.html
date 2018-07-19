@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Document</title>
+ </head>
+ <body>
+ 	{$data1}
+ 	<hr>
+ 	<if condition="$data2['sex'] eq '男'">
+ 		强大
+ 	<else />
+ 		弱小
+ 	</if>
+
+ 	<hr>
+ 	<foreach name='data3' item="v">
+		{$v['name']}__{$v['age']}__{$v['sex']} <hr>
+ 	</foreach>
+ </body>
+ </html> 
